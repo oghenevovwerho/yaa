@@ -1,0 +1,885 @@
+C:\Users\oghenevovwerho\programs\Arduino1.8\arduino-builder
+    -dump-prefs
+    -logger=machine
+    -hardware C:\Users\oghenevovwerho\programs\Arduino1.8\hardware
+    -hardware C:\Users\oghenevovwerho\AppData\Local\Arduino15\packages
+    -tools C:\Users\oghenevovwerho\programs\Arduino1.8\tools-builder
+    -tools C:\Users\oghenevovwerho\programs\Arduino1.8\hardware\tools\avr
+    -tools C:\Users\oghenevovwerho\AppData\Local\Arduino15\packages
+    -built-in-libraries C:\Users\oghenevovwerho\programs\Arduino1.8\libraries
+    -libraries C:\Users\oghenevovwerho\projects\arduino\sketches\libraries
+    -fqbn=arduino:avr:uno
+    -ide-version=10819
+    -build-path C:\Users\OGHENE~1\AppData\Local\Temp\arduino_build_709444
+    -warnings=all
+    -build-cache C:\Users\OGHENE~1\AppData\Local\Temp\arduino_cache_785224
+    -prefs=build.warn_data_percentage=75
+    -prefs=runtime.tools.arduinoOTA.path=C:\Users\oghenevovwerho\programs\Arduino1.8\hardware\tools\avr
+    -prefs=runtime.tools.arduinoOTA-1.3.0.path=C:\Users\oghenevovwerho\programs\Arduino1.8\hardware\tools\avr
+    -prefs=runtime.tools.avrdude.path=C:\Users\oghenevovwerho\programs\Arduino1.8\hardware\tools\avr
+    -prefs=runtime.tools.avrdude-6.3.0-arduino17.path=C:\Users\oghenevovwerho\programs\Arduino1.8\hardware\tools\avr
+    -prefs=runtime.tools.avr-gcc.path=C:\Users\oghenevovwerho\programs\Arduino1.8\hardware\tools\avr
+    -prefs=runtime.tools.avr-gcc-7.3.0-atmel3.6.1-arduino7
+        .path=C:\Users\oghenevovwerho\programs\Arduino1.8\hardware\tools\avr
+    -verbose C:\Users\oghenevovwerho\projects\arduino\sketches\my_blink.ino\my_blink.ino.ino
+
+
+C:\Users\oghenevovwerho\programs\Arduino1.8\arduino-builder
+    -compile
+    -logger=machine
+    -hardware C:\Users\oghenevovwerho\programs\Arduino1.8\hardware
+    -hardware C:\Users\oghenevovwerho\AppData\Local\Arduino15\packages
+    -tools C:\Users\oghenevovwerho\programs\Arduino1.8\tools-builder
+    -tools C:\Users\oghenevovwerho\programs\Arduino1.8\hardware\tools\avr
+    -tools C:\Users\oghenevovwerho\AppData\Local\Arduino15\packages
+    -built-in-libraries C:\Users\oghenevovwerho\programs\Arduino1.8\libraries
+    -libraries C:\Users\oghenevovwerho\projects\arduino\sketches\libraries
+    -fqbn=arduino:avr:uno
+    -ide-version=10819
+    -build-path C:\Users\OGHENE~1\AppData\Local\Temp\arduino_build_709444
+    -warnings=all
+    -build-cache C:\Users\OGHENE~1\AppData\Local\Temp\arduino_cache_785224
+    -prefs=build.warn_data_percentage=75
+    -prefs=runtime.tools.arduinoOTA.path=C:\Users\oghenevovwerho\programs\Arduino1.8\hardware\tools\avr
+    -prefs=runtime.tools.arduinoOTA-1.3.0.path=C:\Users\oghenevovwerho\programs\Arduino1.8\hardware\tools\avr
+    -prefs=runtime.tools.avrdude.path=C:\Users\oghenevovwerho\programs\Arduino1.8\hardware\tools\avr
+    -prefs=runtime.tools.avrdude-6.3.0-arduino17.path=C:\Users\oghenevovwerho\programs\Arduino1.8\hardware\tools\avr
+    -prefs=runtime.tools.avr-gcc.path=C:\Users\oghenevovwerho\programs\Arduino1.8\hardware\tools\avr
+    -prefs=runtime.tools.avr-gcc-7.3.0-atmel3.6.1-arduino7
+        .path=C:\Users\oghenevovwerho\programs\Arduino1.8\hardware\tools\avr
+    -verbose C:\Users\oghenevovwerho\projects\arduino\sketches\my_blink.ino\my_blink.ino.ino
+
+Using board 'uno' from platform in folder: C:\Users\oghenevovwerho\programs\Arduino1.8\hardware\arduino\avr
+Using core 'arduino' from platform in folder: C:\Users\oghenevovwerho\programs\Arduino1.8\hardware\arduino\avr
+Detecting libraries used...
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-g++"
+    -c
+    -g
+    -Os
+    -w
+    -std=gnu++11
+    -fpermissive
+    -fno-exceptions
+    -ffunction-sections
+    -fdata-sections
+    -fno-threadsafe-statics
+    -Wno-error=narrowing
+    -flto
+    -w
+    -x c++
+    -E
+    -CC
+    -mmcu=atmega328p
+    -DF_CPU=16000000L
+    -DARDUINO=10819
+    -DARDUINO_AVR_UNO
+    -DARDUINO_ARCH_AVR
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino"
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\variants\\standard"
+        "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\sketch\\my_blink.ino.ino.cpp"
+    -o nul
+
+Generating function prototypes...
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-g++"
+    -c
+    -g
+    -Os
+    -w
+    -std=gnu++11
+    -fpermissive
+    -fno-exceptions
+    -ffunction-sections
+    -fdata-sections
+    -fno-threadsafe-statics
+    -Wno-error=narrowing
+    -flto
+    -w
+    -x c++
+    -E
+    -CC
+    -mmcu=atmega328p
+    -DF_CPU=16000000L
+    -DARDUINO=10819
+    -DARDUINO_AVR_UNO
+    -DARDUINO_ARCH_AVR
+    "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino"
+    "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\variants\\standard"
+    "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\sketch\\my_blink.ino.ino.cpp"
+    -o "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\preproc\\ctags_target_for_gcc_minus_e.cpp"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\tools-builder\\ctags\\5.8-arduino11/ctags"
+    -u
+    --language-force=c++
+    -f
+    -
+    --c++-kinds=svpf
+    --fields=KSTtzns
+    --line-directives
+        "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\preproc\\ctags_target_for_gcc_minus_e.cpp"
+
+Compiling sketch...
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-g++"
+    -c
+    -g
+    -Os
+    -Wall
+    -Wextra
+    -std=gnu++11
+    -fpermissive
+    -fno-exceptions
+    -ffunction-sections
+    -fdata-sections
+    -fno-threadsafe-statics
+    -Wno-error=narrowing
+    -MMD
+    -flto
+    -mmcu=atmega328p
+    -DF_CPU=16000000L
+    -DARDUINO=10819
+    -DARDUINO_AVR_UNO
+    -DARDUINO_ARCH_AVR
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino"
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\variants\\standard"
+        "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\sketch\\my_blink.ino.ino.cpp"
+    -o "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\sketch\\my_blink.ino.ino.cpp.o"
+
+Compiling libraries...
+Compiling core...
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc"
+    -c
+    -g
+    -x assembler-with-cpp
+    -flto
+    -MMD
+    -mmcu=atmega328p
+    -DF_CPU=16000000L
+    -DARDUINO=10819
+    -DARDUINO_AVR_UNO
+    -DARDUINO_ARCH_AVR
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino"
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\variants\\standard"
+        "C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino\\wiring_pulse.S"
+    -o "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\wiring_pulse.S.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc"
+    -c
+    -g
+    -Os
+    -Wall
+    -Wextra
+    -std=gnu11
+    -ffunction-sections
+    -fdata-sections
+    -MMD
+    -flto
+    -fno-fat-lto-objects
+    -mmcu=atmega328p
+    -DF_CPU=16000000L
+    -DARDUINO=10819
+    -DARDUINO_AVR_UNO
+    -DARDUINO_ARCH_AVR
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino"
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\variants\\standard"
+        "C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino\\WInterrupts.c"
+    -o "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\WInterrupts.c.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc"
+    -c
+    -g
+    -Os
+    -Wall
+    -Wextra
+    -std=gnu11
+    -ffunction-sections
+    -fdata-sections
+    -MMD
+    -flto
+    -fno-fat-lto-objects
+    -mmcu=atmega328p
+    -DF_CPU=16000000L
+    -DARDUINO=10819
+    -DARDUINO_AVR_UNO
+    -DARDUINO_ARCH_AVR
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino"
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\variants\\standard"
+        "C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino\\wiring_analog.c"
+    -o "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\wiring_analog.c.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc"
+    -c
+    -g
+    -Os
+    -Wall
+    -Wextra
+    -std=gnu11
+    -ffunction-sections
+    -fdata-sections
+    -MMD
+    -flto
+    -fno-fat-lto-objects
+    -mmcu=atmega328p
+    -DF_CPU=16000000L
+    -DARDUINO=10819
+    -DARDUINO_AVR_UNO
+    -DARDUINO_ARCH_AVR
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino"
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\variants\\standard"
+        "C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino\\hooks.c"
+    -o "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\hooks.c.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc"
+    -c
+    -g
+    -Os
+    -Wall
+    -Wextra
+    -std=gnu11
+    -ffunction-sections
+    -fdata-sections
+    -MMD
+    -flto
+    -fno-fat-lto-objects
+    -mmcu=atmega328p
+    -DF_CPU=16000000L
+    -DARDUINO=10819
+    -DARDUINO_AVR_UNO
+    -DARDUINO_ARCH_AVR
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino"
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\variants\\standard"
+        "C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino\\wiring.c"
+    -o "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\wiring.c.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc"
+    -c
+    -g
+    -Os
+    -Wall
+    -Wextra
+    -std=gnu11
+    -ffunction-sections
+    -fdata-sections
+    -MMD
+    -flto
+    -fno-fat-lto-objects
+    -mmcu=atmega328p
+    -DF_CPU=16000000L
+    -DARDUINO=10819
+    -DARDUINO_AVR_UNO
+    -DARDUINO_ARCH_AVR
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino"
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\variants\\standard"
+        "C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino\\wiring_digital.c"
+    -o "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\wiring_digital.c.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc"
+    -c
+    -g
+    -Os
+    -Wall
+    -Wextra
+    -std=gnu11
+    -ffunction-sections
+    -fdata-sections
+    -MMD
+    -flto
+    -fno-fat-lto-objects
+    -mmcu=atmega328p
+    -DF_CPU=16000000L
+    -DARDUINO=10819
+    -DARDUINO_AVR_UNO
+    -DARDUINO_ARCH_AVR
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino"
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\variants\\standard"
+        "C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino\\wiring_pulse.c"
+    -o "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\wiring_pulse.c.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc"
+    -c
+    -g
+    -Os
+    -Wall
+    -Wextra
+    -std=gnu11
+    -ffunction-sections
+    -fdata-sections
+    -MMD
+    -flto
+    -fno-fat-lto-objects
+    -mmcu=atmega328p
+    -DF_CPU=16000000L
+    -DARDUINO=10819
+    -DARDUINO_AVR_UNO
+    -DARDUINO_ARCH_AVR
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino"
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\variants\\standard"
+        "C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino\\wiring_shift.c"
+    -o "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\wiring_shift.c.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-g++"
+    -c
+    -g
+    -Os
+    -Wall
+    -Wextra
+    -std=gnu++11
+    -fpermissive
+    -fno-exceptions
+    -ffunction-sections
+    -fdata-sections
+    -fno-threadsafe-statics
+    -Wno-error=narrowing
+    -MMD
+    -flto
+    -mmcu=atmega328p
+    -DF_CPU=16000000L
+    -DARDUINO=10819
+    -DARDUINO_AVR_UNO
+    -DARDUINO_ARCH_AVR
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino"
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\variants\\standard"
+        "C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino\\HardwareSerial.cpp"
+    -o "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\HardwareSerial.cpp.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-g++"
+    -c
+    -g
+    -Os
+    -Wall
+    -Wextra
+    -std=gnu++11
+    -fpermissive
+    -fno-exceptions
+    -ffunction-sections
+    -fdata-sections
+    -fno-threadsafe-statics
+    -Wno-error=narrowing
+    -MMD
+    -flto
+    -mmcu=atmega328p
+    -DF_CPU=16000000L
+    -DARDUINO=10819
+    -DARDUINO_AVR_UNO
+    -DARDUINO_ARCH_AVR
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino"
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\variants\\standard"
+        "C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino\\HardwareSerial1.cpp"
+    -o "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\HardwareSerial1.cpp.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-g++"
+    -c
+    -g
+    -Os
+    -Wall
+    -Wextra
+    -std=gnu++11
+    -fpermissive
+    -fno-exceptions
+    -ffunction-sections
+    -fdata-sections
+    -fno-threadsafe-statics
+    -Wno-error=narrowing
+    -MMD
+    -flto
+    -mmcu=atmega328p
+    -DF_CPU=16000000L
+    -DARDUINO=10819
+    -DARDUINO_AVR_UNO
+    -DARDUINO_ARCH_AVR
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino"
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\variants\\standard"
+        "C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino\\CDC.cpp"
+    -o "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\CDC.cpp.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-g++"
+    -c
+    -g
+    -Os
+    -Wall
+    -Wextra
+    -std=gnu++11
+    -fpermissive
+    -fno-exceptions
+    -ffunction-sections
+    -fdata-sections
+    -fno-threadsafe-statics
+    -Wno-error=narrowing
+    -MMD
+    -flto
+    -mmcu=atmega328p
+    -DF_CPU=16000000L
+    -DARDUINO=10819
+    -DARDUINO_AVR_UNO
+    -DARDUINO_ARCH_AVR
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino"
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\variants\\standard"
+        "C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino\\HardwareSerial0.cpp"
+    -o "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\HardwareSerial0.cpp.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-g++"
+    -c
+    -g
+    -Os
+    -Wall
+    -Wextra
+    -std=gnu++11
+    -fpermissive
+    -fno-exceptions
+    -ffunction-sections
+    -fdata-sections
+    -fno-threadsafe-statics
+    -Wno-error=narrowing
+    -MMD
+    -flto
+    -mmcu=atmega328p
+    -DF_CPU=16000000L
+    -DARDUINO=10819
+    -DARDUINO_AVR_UNO
+    -DARDUINO_ARCH_AVR
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino"
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\variants\\standard"
+        "C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino\\HardwareSerial2.cpp"
+    -o "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\HardwareSerial2.cpp.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-g++"
+    -c
+    -g
+    -Os
+    -Wall
+    -Wextra
+    -std=gnu++11
+    -fpermissive
+    -fno-exceptions
+    -ffunction-sections
+    -fdata-sections
+    -fno-threadsafe-statics
+    -Wno-error=narrowing
+    -MMD
+    -flto
+    -mmcu=atmega328p
+    -DF_CPU=16000000L
+    -DARDUINO=10819
+    -DARDUINO_AVR_UNO
+    -DARDUINO_ARCH_AVR
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino"
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\variants\\standard"
+        "C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino\\IPAddress.cpp"
+    -o "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\IPAddress.cpp.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-g++"
+    -c
+    -g
+    -Os
+    -Wall
+    -Wextra
+    -std=gnu++11
+    -fpermissive
+    -fno-exceptions
+    -ffunction-sections
+    -fdata-sections
+    -fno-threadsafe-statics
+    -Wno-error=narrowing
+    -MMD
+    -flto
+    -mmcu=atmega328p
+    -DF_CPU=16000000L
+    -DARDUINO=10819
+    -DARDUINO_AVR_UNO
+    -DARDUINO_ARCH_AVR
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino"
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\variants\\standard"
+        "C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino\\HardwareSerial3.cpp"
+    -o "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\HardwareSerial3.cpp.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-g++"
+    -c
+    -g
+    -Os
+    -Wall
+    -Wextra
+    -std=gnu++11
+    -fpermissive
+    -fno-exceptions
+    -ffunction-sections
+    -fdata-sections
+    -fno-threadsafe-statics
+    -Wno-error=narrowing
+    -MMD
+    -flto
+    -mmcu=atmega328p
+    -DF_CPU=16000000L
+    -DARDUINO=10819
+    -DARDUINO_AVR_UNO
+    -DARDUINO_ARCH_AVR
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino"
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\variants\\standard"
+        "C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino\\PluggableUSB.cpp"
+    -o "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\PluggableUSB.cpp.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-g++"
+    -c
+    -g
+    -Os
+    -Wall
+    -Wextra
+    -std=gnu++11
+    -fpermissive
+    -fno-exceptions
+    -ffunction-sections
+    -fdata-sections
+    -fno-threadsafe-statics
+    -Wno-error=narrowing
+    -MMD
+    -flto
+    -mmcu=atmega328p
+    -DF_CPU=16000000L
+    -DARDUINO=10819
+    -DARDUINO_AVR_UNO
+    -DARDUINO_ARCH_AVR
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino"
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\variants\\standard"
+        "C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino\\Print.cpp"
+    -o "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\Print.cpp.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-g++"
+    -c
+    -g
+    -Os
+    -Wall
+    -Wextra
+    -std=gnu++11
+    -fpermissive
+    -fno-exceptions
+    -ffunction-sections
+    -fdata-sections
+    -fno-threadsafe-statics
+    -Wno-error=narrowing
+    -MMD
+    -flto
+    -mmcu=atmega328p
+    -DF_CPU=16000000L
+    -DARDUINO=10819
+    -DARDUINO_AVR_UNO
+    -DARDUINO_ARCH_AVR
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino"
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\variants\\standard"
+        "C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino\\Stream.cpp"
+    -o "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\Stream.cpp.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-g++"
+    -c
+    -g
+    -Os
+    -Wall
+    -Wextra
+    -std=gnu++11
+    -fpermissive
+    -fno-exceptions
+    -ffunction-sections
+    -fdata-sections
+    -fno-threadsafe-statics
+    -Wno-error=narrowing
+    -MMD
+    -flto
+    -mmcu=atmega328p
+    -DF_CPU=16000000L
+    -DARDUINO=10819
+    -DARDUINO_AVR_UNO
+    -DARDUINO_ARCH_AVR
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino"
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\variants\\standard"
+        "C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino\\Tone.cpp"
+    -o "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\Tone.cpp.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-g++"
+    -c
+    -g
+    -Os
+    -Wall
+    -Wextra
+    -std=gnu++11
+    -fpermissive
+    -fno-exceptions
+    -ffunction-sections
+    -fdata-sections
+    -fno-threadsafe-statics
+    -Wno-error=narrowing
+    -MMD
+    -flto
+    -mmcu=atmega328p
+    -DF_CPU=16000000L
+    -DARDUINO=10819
+    -DARDUINO_AVR_UNO
+    -DARDUINO_ARCH_AVR
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino"
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\variants\\standard"
+        "C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino\\USBCore.cpp"
+    -o "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\USBCore.cpp.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-g++"
+    -c
+    -g
+    -Os
+    -Wall
+    -Wextra
+    -std=gnu++11
+    -fpermissive
+    -fno-exceptions
+    -ffunction-sections
+    -fdata-sections
+    -fno-threadsafe-statics
+    -Wno-error=narrowing
+    -MMD
+    -flto
+    -mmcu=atmega328p
+    -DF_CPU=16000000L
+    -DARDUINO=10819
+    -DARDUINO_AVR_UNO
+    -DARDUINO_ARCH_AVR
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino"
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\variants\\standard"
+        "C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino\\WMath.cpp"
+    -o "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\WMath.cpp.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-g++"
+    -c
+    -g
+    -Os
+    -Wall
+    -Wextra
+    -std=gnu++11
+    -fpermissive
+    -fno-exceptions
+    -ffunction-sections
+    -fdata-sections
+    -fno-threadsafe-statics
+    -Wno-error=narrowing
+    -MMD
+    -flto
+    -mmcu=atmega328p
+    -DF_CPU=16000000L
+    -DARDUINO=10819
+    -DARDUINO_AVR_UNO
+    -DARDUINO_ARCH_AVR
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino"
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\variants\\standard"
+        "C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino\\WString.cpp"
+    -o "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\WString.cpp.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-g++"
+    -c
+    -g
+    -Os
+    -Wall
+    -Wextra
+    -std=gnu++11
+    -fpermissive
+    -fno-exceptions
+    -ffunction-sections
+    -fdata-sections
+    -fno-threadsafe-statics
+    -Wno-error=narrowing
+    -MMD
+    -flto
+    -mmcu=atmega328p
+    -DF_CPU=16000000L
+    -DARDUINO=10819
+    -DARDUINO_AVR_UNO
+    -DARDUINO_ARCH_AVR
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino"
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\variants\\standard"
+        "C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino\\abi.cpp"
+    -o "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\abi.cpp.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-g++"
+    -c
+    -g
+    -Os
+    -Wall
+    -Wextra
+    -std=gnu++11
+    -fpermissive
+    -fno-exceptions
+    -ffunction-sections
+    -fdata-sections
+    -fno-threadsafe-statics
+    -Wno-error=narrowing
+    -MMD
+    -flto
+    -mmcu=atmega328p
+    -DF_CPU=16000000L
+    -DARDUINO=10819
+    -DARDUINO_AVR_UNO
+    -DARDUINO_ARCH_AVR
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino"
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\variants\\standard"
+        "C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino\\main.cpp"
+    -o "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\main.cpp.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-g++"
+    -c
+    -g
+    -Os
+    -Wall
+    -Wextra
+    -std=gnu++11
+    -fpermissive
+    -fno-exceptions
+    -ffunction-sections
+    -fdata-sections
+    -fno-threadsafe-statics
+    -Wno-error=narrowing
+    -MMD
+    -flto
+    -mmcu=atmega328p
+    -DF_CPU=16000000L
+    -DARDUINO=10819
+    -DARDUINO_AVR_UNO
+    -DARDUINO_ARCH_AVR
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino"
+        "-IC:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\variants\\standard"
+        "C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\arduino\\avr\\cores\\arduino\\new.cpp"
+    -o "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\new.cpp.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc-ar"
+    rcs "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\core.a"
+        "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\wiring_pulse.S.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc-ar"
+    rcs "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\core.a"
+        "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\WInterrupts.c.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc-ar"
+    rcs "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\core.a"
+        "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\hooks.c.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc-ar"
+    rcs "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\core.a"
+        "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\wiring.c.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc-ar"
+    rcs "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\core.a"
+        "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\wiring_analog.c.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc-ar"
+    rcs "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\core.a"
+        "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\wiring_digital.c.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc-ar"
+    rcs "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\core.a"
+        "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\wiring_pulse.c.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc-ar"
+    rcs "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\core.a"
+        "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\wiring_shift.c.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc-ar"
+    rcs "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\core.a"
+        "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\CDC.cpp.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc-ar"
+    rcs "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\core.a"
+        "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\HardwareSerial.cpp.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc-ar"
+    rcs "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\core.a"
+        "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\HardwareSerial0.cpp.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc-ar"
+    rcs "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\core.a"
+        "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\HardwareSerial1.cpp.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc-ar"
+    rcs "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\core.a"
+        "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\HardwareSerial2.cpp.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc-ar"
+    rcs "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\core.a"
+        "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\HardwareSerial3.cpp.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc-ar"
+    rcs "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\core.a"
+        "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\IPAddress.cpp.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc-ar"
+    rcs "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\core.a"
+        "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\PluggableUSB.cpp.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc-ar"
+    rcs "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\core.a"
+        "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\Print.cpp.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc-ar"
+    rcs "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\core.a"
+        "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\Stream.cpp.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc-ar"
+    rcs "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\core.a"
+        "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\Tone.cpp.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc-ar"
+    rcs "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\core.a"
+        "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\USBCore.cpp.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc-ar"
+    rcs "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\core.a"
+        "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\WMath.cpp.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc-ar"
+    rcs "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\core.a"
+        "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\WString.cpp.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc-ar"
+    rcs "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\core.a"
+        "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\abi.cpp.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc-ar"
+    rcs "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\core.a"
+        "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\main.cpp.o"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc-ar"
+    rcs "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\core.a"
+        "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\core\\new.cpp.o"
+
+caching in: C:\Users\OGHENE~1\AppData\Local\Temp\arduino_cache_785224
+                \core\core_arduino_avr_uno_43d5eb420133b0de4458d53534742b1a.a
+
+Linking everything together...
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-gcc"
+    -Wall
+    -Wextra
+    -Os
+    -g
+    -flto
+    -fuse-linker-plugin
+    -Wl,--gc-sections
+    -mmcu=atmega328p
+    -o "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444/my_blink.ino.ino.elf"
+    "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444\\sketch\\my_blink.ino.ino.cpp.o"
+    "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444/core\\core.a"
+    "-LC:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444"
+    -lm
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-objcopy"
+    -O ihex
+    -j .eeprom
+    --set-section-flags=.eeprom=alloc,load
+    --no-change-warnings
+    --change-section-lma
+    .eeprom=0
+    "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444/my_blink.ino.ino.elf"
+    "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444/my_blink.ino.ino.eep"
+
+"C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-objcopy"
+    -O ihex
+    -R .eeprom "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444/my_blink.ino.ino.elf"
+        "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444/my_blink.ino.ino.hex"
+        "C:\\Users\\oghenevovwerho\\programs\\Arduino1.8\\hardware\\tools\\avr/bin/avr-size"
+    -A "C:\\Users\\OGHENE~1\\AppData\\Local\\Temp\\arduino_build_709444/my_blink.ino.ino.elf"
+
+Sketch uses 924 bytes (2%) of program storage space. Maximum is 32256 bytes.
+Global variables use 9 bytes of dynamic memory, left 2039 bytes for local variables. Max is 2048 bytes.

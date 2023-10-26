@@ -1,0 +1,100 @@
+package yaa.parser;
+
+public class TokenUtils {
+  public static String tokenString(TkKind kind) {
+    return switch (kind) {
+      case dot -> "a dot \".\"";
+      case at -> "an at \"@\"";
+      case not -> "a not \"!\"";
+      case plus -> "a plus \"+\"";
+      case star -> "a star \"*\"";
+      case wavy -> "a wavy \"~\"";
+      case kw_na -> "the na keyword";
+      case pipe -> "a pipe \"|\"";
+      case id -> "a symbol's name";
+      case minus -> "a minus \"-\"";
+      case colon -> "a colon \":\"";
+      case equal -> "an equal \"=\"";
+      case caret -> "a caret \"^\"";
+      case comma -> "a comma \",\"";
+      case space -> "a space \" \"";
+      case arrow -> "an arrow \"->\"";
+      case dollar -> "a dollar \"$\"";
+      case modulo -> "a modulo \"%\"";
+      case d_pipe -> "a double pipe \"||\"";
+      case l_than -> "a less than \"<\"";
+      case g_than -> "a greater than \">\"";
+      case q_mark -> "a question mark \"?\"";
+      case b_tick -> "a back tick \"`\"";
+      case l_equal -> "a less or equal \"<=\"";
+      case g_equal -> "a great or equal \">=\"";
+      case d_colon -> "a double colon \"::\"";
+      case double_literal -> "a fractional number";
+      case long_literal -> "a long number";
+      case short_literal -> "a short number";
+      case byte_literal -> "a byte number";
+      case float_literal -> "a float number";
+      case int_literal -> "a non-fractional number";
+      case unknown -> "an unknown symbol";
+      case f_slash -> "a forward slash \"\\\"";
+      case semi_colon -> "a semi colon \";\"";
+      case s_quote -> "a single quote \"'\"";
+      case d_quote -> "a double quote \"\"\"";
+      case l_curly -> "a left brace \"{\"";
+      case l_paren -> "a left parenthesis \"(\"";
+      case r_paren -> "a right parenthesis \")\"";
+      case l_bracket -> "a left bracket \"[\"";
+      case r_curly -> "a right brace \"}\"";
+      case r_bracket -> "a right bracket \"]\"";
+      case u_score -> "an underscore \"_\"";
+      case df_slash -> "a double forward slash \"\\\\\"";
+      //case new_line -> "a new line";
+      case star_star -> "a double star \"**\"";
+      case ampersand -> "an ampersand \"&\"";
+      case d_ampersand -> "a double ampersand \"&&\"";
+      case escaped_tab -> "a tab escape \"\\t\"";
+      case escaped_hash -> "a hash escape \"\\#\"";
+      case escaped_b_tick -> "an escaped double quote \"\\\"\"";
+      case escaped_s_quote -> "an escaped single quote \"\\'\"";
+      case escaped_b_slash -> "an escaped back slash \"\\/\"";
+      case escaped_newline -> "an escaped double quote \"\\n\"";
+      case equal_arrow -> "an instanceof arrow";
+      case dollar_bunch -> "multiple dollar signs";
+      case underscore_bunch -> "multiple underscores";
+      case escaped_l_curly -> "an escaped left brace \"\\{\"";
+      case l_shift -> "a left shift \"<<\"";
+      case r_shift -> "a right shift \">>\"";
+      case u_r_shift -> "an unsigned right shift \">>>\"";
+      case equal_equal -> "a value equal \"==\"";
+      case not_equal -> "a value not equal \"!=\"";
+      case m_not_equal -> "an identity not equal \"!==\"";
+      case m_equal -> "an identity equal \"===\"";
+      case unicode -> "a unicode constant";
+      case basex -> "a non-decimal number";
+      case kw_ufuoma -> "the ufuoma keyword";
+      case kw_tuli -> "the tuli keyword";
+      case kw_oka -> "the oka keyword";
+      case kw_interface -> "the interface keyword";
+      case kw_okpetu -> "the okpetu keyword";
+      case kw_mzazi -> "the mzazi keyword";
+      case kw_idan -> "the idan keyword";
+      case kw_tesiwaju -> "the tesiwaju keyword";
+      case kw_comot -> "the comot keyword";
+      case kw_hii -> "the this keyword";
+      case kw_naso -> "the Boolean constant \"naso\"";
+      case kw_nalie -> "the Boolean constant \"nalie\"";
+      case kw_final -> "the final keyword";
+      case kw_ode -> "the ode keyword";
+      case kw_transient -> "the transient keyword";
+      case kw_record -> "the record keyword";
+      case kw_enum -> "the enum keyword";
+      case kw_fimisile -> "the fimisile keyword";
+      case eof -> "an end of file";
+      case kw_ozi -> "the ozi keyword";
+    };
+  }
+
+  public static int decimalValue(YaaToken int_token) {
+    return Integer.parseInt(int_token.content);
+  }
+}

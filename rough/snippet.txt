@@ -1,0 +1,7 @@
+oka Profile{
+  name: String; mail: JvMail;
+
+  -> super.name = "John Joy";
+}
+
+newProfile = Profile(name = "tobore oghenevovwerho", mail = {"tobore@gmail.com"})

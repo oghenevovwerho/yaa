@@ -1,0 +1,12 @@
+---
+settings: fupre,
+name: test,
+description: test will use Yaa to improve humanity,
+author:
+  name: oghenevovwerho,
+  email: your.email@server.com,
+  url: the.url.to.your.own.website
+homepage: the.url.to.this.project.website,
+license: Apache-2.0,
+floatDoubleEqualResolution: 0.001
+...
