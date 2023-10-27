@@ -1,1 +1,0 @@
-super types e.g @Meta1 Parent<List<Integer@Meta2>>

@@ -1,7 +1,0 @@
-package lang
-
-class String
-
-completeDottedName = java.lang.String
-simpleName = String
-descriptor = Ljava/lang/String;
