@@ -3,8 +3,11 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+### Project
+yaa.g4
+
 ### IntelliJ IDEA ###
-.idea/
+.idea
 *.iws
 *.iml
 *.ipr
