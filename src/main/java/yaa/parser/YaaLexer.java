@@ -283,7 +283,7 @@ public class YaaLexer {
         }
       }
     }
-    return new YaaToken(eof, "e").set_line(line - 1).set_column(column + 1);
+    return new YaaToken(eof, "e").set_line(line).set_column(column + 1);
   }
 
   private void comment() {

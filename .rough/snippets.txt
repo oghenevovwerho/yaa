@@ -1,0 +1,9 @@
+&type Profile
+
+&id: description = `This programming language is cool`;
+
+&type(kind = enum) ProfileForm{
+  &id(transient = true) name String = `Tobore Humble`;
+}
+
+&type(kind = data) RecordProfile{}

@@ -5,5 +5,5 @@ public enum BlockKind {
   loop,
   case$block,
   init,
-  clz,
+  clz
 }

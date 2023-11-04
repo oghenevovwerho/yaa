@@ -34,7 +34,9 @@ public class YaaParser {
   public List<Stmt> parse() {
     final List<Stmt> parsedContent = new ArrayList<>();
     ct = lexer.nextToken();
+    var inStart = ct;
     var programIn = new ProgramIn(filePath);
+    programIn.start = inStart;
     parsedContent.add(programIn);
     while (ct.kind != eof) {
       switch (ct.kind) {
@@ -151,6 +153,7 @@ public class YaaParser {
         break;
       }
     }
+    programIn.close = ct;
     parsedContent.add(new ProgramOut());
     return parsedContent;
   }
@@ -2578,6 +2581,7 @@ public class YaaParser {
         return completeLiteral(unary$minus);
       }
       case b_tick -> {
+        var stringStart = ct;
         var string = new AstString();
         var contents = new ArrayList<>();
         lexer.allAllowed = true;
@@ -2603,10 +2607,16 @@ public class YaaParser {
             case escaped_l_curly -> contents.add(new LCurly(get$advance()));
             case unicode -> contents.add(new UniKode(get$advance()));
             case eof -> {
-              throw new YaaError(
-                  ct.placeOfUse(), "The string at ["
-                  + start.placeOfUse() + "] must be closed"
-              );
+              if (string.itIsInterpolated) {
+                throw new YaaError(
+                    ct.placeOfUse(), "The string is not properly terminated"
+                );
+              } else {
+                throw new YaaError(
+                    ct.placeOfUse(), "The string at ["
+                    + stringStart.placeOfUse() + "] must be closed"
+                );
+              }
             }
             default -> {
               contents.add(get$advance().content);

@@ -106,7 +106,7 @@ public class F5 extends FileState {
 
   @Override
   public YaaInfo $main(MainFunction main) {
-    pushTable(main);
+    //a main cannot have parameters, so there's no need to push and pop tables here
     fn$type.push(new YaaClz(void$name));
     fn$name.push("program entry point");
     block.push(BlockKind.init);
@@ -117,7 +117,6 @@ public class F5 extends FileState {
     block.pop();
     fn$type.pop();
     fn$stmt.pop();
-    popTable();
     fn$address.pop();
     return nothing;
   }

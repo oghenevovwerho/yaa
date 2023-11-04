@@ -10,6 +10,7 @@ import yaa.pojos.LogData;
 import yaa.pojos.YaaCompilerProvider;
 import yaa.pojos.YaaError;
 import yaa.pojos.jMold.JMold;
+import yaa.semantic.handlers.VMtdOp;
 import yaa.semantic.passes.fs1.F1;
 import yaa.semantic.passes.fs2.F2;
 import yaa.semantic.passes.fs3.F3;

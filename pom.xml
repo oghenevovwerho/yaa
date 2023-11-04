@@ -30,14 +30,14 @@
       <scope>test</scope>
     </dependency>
     <dependency>
+      <groupId>com.esotericsoftware</groupId>
+      <artifactId>kryo</artifactId>
+      <version>5.5.0</version>
+    </dependency>
+    <dependency>
       <groupId>org.ow2.asm</groupId>
       <artifactId>asm</artifactId>
       <version>9.5</version>
-    </dependency>
-    <dependency>
-      <groupId>org.furyio</groupId>
-      <artifactId>fury-core</artifactId>
-      <version>0.2.0</version>
     </dependency>
     <dependency>
       <groupId>com.google.code.gson</groupId>
@@ -56,6 +56,24 @@
       <scope>provided</scope>
     </dependency>
   </dependencies>
+
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>oghenevovwerho</id>
+      <name>Tobore Oghenevovwerho</name>
+      <email>oghenevovwerho.iruo@gmail.com</email>
+    </developer>
+  </developers>
+
+  <scm>
+    <url>https://svn.apache.org/viewvc/maven</url>
+  </scm>
 
   <build>
     <plugins>
@@ -88,6 +106,32 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-failsafe-plugin</artifactId>
         <version>3.2.1</version>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-source-plugin</artifactId>
+        <version>3.2.1</version>
+        <executions>
+          <execution>
+            <id>attach-sources</id>
+            <goals>
+              <goal>jar-no-fork</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>3.2.0</version>
+        <executions>
+          <execution>
+            <id>attach-javadocs</id>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+          </execution>
+        </executions>
       </plugin>
     </plugins>
   </build>
